@@ -1,0 +1,108 @@
+Day-1
+
+Q1.Draw a labeled diagram of a desktop PC, clearly marking the motherboard, CPU, RAM, GPU, and both HDD and SSD storage components.
+
+Ans.             
+
++-------------------------------------------------------------------------------+
+|                                COMPUTER TOWER                                 |
+|                                                                               |
+|  +-------------------------------------------------------------------------+  |
+|  |                           MOTHERBOARD (Mainboard)                       |  |
+|  |  [Main circuit board connecting all internal components]                |  |
+|  |                                                                         |  |
+|  |   +-------------------+       +-------------------+                     |  |
+|  |   |        CPU        |       |    RAM SLOTS      |                     |  |
+|  |   |  (Processor /     |       | +---------------+ |                     |  |
+|  |   |   Brain of PC)    |       | |  RAM Module   | |                     |  |
+|  |   +-------------------+       | +---------------+ |                     |  |
+|  |            |                  | +---------------+ |                     |  |
+|  |            |                  | |  RAM Module   | |                     |  |
+|  |            |                  | +---------------+ |                     |  |
+|  |            |                  +-------------------+                     |  |
+|  |            |                            |                               |  |
+|  |            |  +-------------------------+                               |  |
+|  |            |  |                                                         |  |
+|  |            v  v                                                         |  |
+|  |   ==================== HIGH-SPEED DATA BUS ==========================   |  |
+|  |                               |                         |               |  |
+|  |                               v                         v               |  |
+|  |     +-----------------------------------+     +-------------------+     |  |
+|  |     |               GPU                 |     |   M.2 NVMe SSD    |     |  |
+|  |     |     (Graphics Card / Video)       |     |  (Fast Solid State|     |  |
+|  |     +-----------------------------------+     |   Storage Stick)  |     |  |
+|  |                                               +-------------------+     |  |
+|  +-------------------------------------------------------------------------+  |
+|                                     |                                         |
+|                                     | SATA Data Cable                         |
+|                                     v                                         |
+|  +-------------------------------------------------------------------------+  |
+|  |                           DRIVE BAYS                                    |  |
+|  |                                                                         |  |
+|  |   +---------------------------------+                                   |  |
+|  |   |            2.5" SSD             |  (Solid State Drive - Fast)       |  |
+|  |   +---------------------------------+                                   |  |
+|  |                                                                         |  |
+|  |   +---------------------------------+                                   |  |
+|  |   |            3.5" HDD             |  (Hard Disk Drive - Bulk Storage) |  |
+|  |   +---------------------------------+                                   |  |
+|  +-------------------------------------------------------------------------+  |
++-------------------------------------------------------------------------------+
+
+
+Q2.Create a comparison table showing the main differences between HDD and SSD storage in terms of speed, durability, and typical use cases.
+
+Ans.
+
+HDD vs. SSD Storage Comparison
+
+Feature			Hard Disk Drive (HDD)			Solid State Drive (SSD)
+----------------------------------------------------------------------------------
+Technology		Mechanical spinning magnetic		Non-volatile flash memory chips
+	`		platters and moving read/		with no moving parts
+			write heads
+
+Speed			Slower:					• SATA SSD: ~500 – 550 MB/s
+			• Read/Write: ~80 – 160 MB/s		• NVMe PCIe SSD: ~3,500 – 7,000+ MB/s
+			• High latency and search times		• Ultra-low latency and near-instant access
+
+Durability 		Less Durable				Highly Durable
+& Reliability		• Sensitive to physical shocks,		• Shock-resistant and drop-resistant
+			  drops, and vibrations			• Silent operation with no moving parts
+			• Moving mechanical parts wear 
+			  out over time
+
+Capacity & Cost		Lower cost per gigabyte; ideal 		Higher cost per gigabyte compared to
+			for high-capacity budget 		HDDs, though prices continue to drop
+			storage (2TB – 20TB+)
+
+Typical Use Cases	• Bulk data archiving & backup		• Operating System boot drives (Windows/macOS)
+			  drives
+			• Network Attached Storage (NAS)	• Modern laptops and ultra-thin notebooks
+			  servers
+			• High-capacity secondary media		• Gaming PCs and consoles (PS5, Xbox Series X)
+			  storage in budget desktop PCs
+
+Q3.Write a short explanation (2-3 sentences each) describing the role of the CPU, RAM, and GPU in running a game like PUBG or Free Fire on a PC.
+
+Ans.
+
+CPU (Central Processing Unit): The CPU acts as the brain of the game, handling game logic, physics engine calculations, and non-player character (NPC) behavior. In fast-paced battle royales like PUBG or Free Fire, it constantly tracks player locations, processes hits/damage, and manages background tasks so the game runs without stuttering.
+
+RAM (Random Access Memory): RAM serves as super-fast temporary storage that holds active game assets—such as map terrain, character skins, weapon models, and audio files—so the CPU can retrieve them instantly. Having enough RAM prevents frame drops, lag spikes, and long loading screens when dropping into large maps.
+
+GPU (Graphics Processing Unit): The GPU takes the structural data from the CPU and turns it into the visuals rendered on your screen. It handles high-resolution textures, dynamic lighting, shadow effects, and frame rates to keep action smooth and visual details clear when aiming or spotting enemies at a distance.
+
+Q4.Imagine you want to upgrade your PC to run the latest version of FIFA smoothly. List which hardware components you would consider upgrading and explain why for each.
+
+Ans.
+
+1. Graphics Card (GPU) — Highest PriorityWhy Upgrade: Modern EA SPORTS FC titles rely heavily on realistic player rendering, HyperMotion technology, dynamic stadium pitch lighting, crowd animations, and ray-traced ambient occlusion. A weak GPU results in micro-stutters, screen tearing, and choppy gameplay during match cuts and fast counter-attacks.Target Spec: Upgrade to an NVIDIA GeForce RTX 3060 / 4060 or AMD Radeon RX 6600 / 7600 (minimum 8 GB VRAM).   Impact: Delivers crisp 1080p/1440p visuals with locked 60–120+ FPS performance.   
+
+2. Processor (CPU) — High PriorityWhy Upgrade: EA SPORTS FC is surprisingly CPU-intensive. The CPU processes player AI physics, ball movement mechanics, tactical positioning, and the background EA Anti-Cheat system. An outdated CPU causes bottlenecking, leading to frame drops during crowded penalty box action or set-pieces.Target Spec: Upgrade to a modern 6-core/12-thread processor like the AMD Ryzen 5 5600 / 7600 or Intel Core i5-12400F / 13400F.   Impact: Maintains consistent frame rates without stutters and ensures smooth online matchmaking.
+
+3. NVMe SSD Storage — High PriorityWhy Upgrade: Modern football titles take up 100+ GB of storage space and stream massive Stadium environments and high-res kits in real time. Installing the game on a traditional HDD leads to long load times, delayed kit rendering, and lag spikes when transitioning between menu tabs in Ultimate Team or Career Mode.   Target Spec: Upgrade to a 1TB or 2TB M.2 PCIe NVMe SSD.Impact: Near-instant boot times, instantaneous match loading, and fluid UI navigation.
+
+4. RAM (System Memory) — Medium PriorityWhy Upgrade: While the official recommended spec calls for 12 GB RAM, modern Windows OS and background tasks (like Discord, browser tabs, or game overlays) easily push usage beyond 12 GB. Insufficient RAM causes aggressive page-filing, leading to sudden stuttering mid-match.   Target Spec: Upgrade to 16 GB (2x8 GB) or 32 GB DDR4/DDR5 Dual-Channel RAM running at 3200MHz+.Impact: Dual-channel mode doubles memory bandwidth, fixing sudden frame drops and keeping gameplay consistently smooth.
+
+5. Supporting Upgrades (Power Supply & Cooling) — ConditionalPower Supply (PSU): Upgrading to a newer GPU and CPU requires reliable power. Ensure your PSU is rated at 550W–650W (80+ Bronze/Gold certified) to prevent system crashes under heavy load.CPU Cooler: An aftermarket air cooler or 240mm liquid cooler keeps temperatures low, allowing the CPU to sustain maximum boost clocks during long gaming sessions.
